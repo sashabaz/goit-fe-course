@@ -1,0 +1,34 @@
+.menu {
+    margin: 0;
+    padding: 0;
+   text-align: center;
+}
+.menu_list {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu_list_link {
+    text-decoration: none;
+   
+}
+.menu_list_link:hover {
+    color: aqua;
+}
+.class_article {
+    width: 470px;
+    margin: 0 auto;
+    padding: 22px;
+    border: 3px solid black;
+    box-sizing: border-box;
+
+}
+.text_img {
+    text-transform: uppercase;
+}
+.content_text {
+    text-align: justify;
+}
+h2 {
+    text-align: justify;
+}
