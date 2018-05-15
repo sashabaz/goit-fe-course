@@ -15,14 +15,21 @@
 .menu_list_link:hover {
     color: aqua;
 }
-.class_article {
+.menu_list_link, .text_img, .content_text, h2{
+    font-family: «Playfair Display», serif;
+}
+h2 {
+    font-size: 34px;
+    font-weight: normal;
+}
+.class_article { 
     width: 470px;
     margin: 0 auto;
     padding: 22px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     box-sizing: border-box;
-
 }
+
 .text_img {
     text-transform: uppercase;
 }
@@ -32,3 +39,21 @@
 h2 {
     text-align: justify;
 }
+.class_article_box { 
+    width: 470px;
+    margin: 0 auto;
+    padding: 22px;
+    /* border: 3px solid black; */
+    box-sizing: border-box;
+    display: inline-block;
+}
+.center_box {
+    width: 960px;
+    margin: 0 auto;
+    /* border: 3px solid green; */
+    box-sizing: border-box;
+} 
+.article_left {
+    margin-left: 5px;
+}
+
