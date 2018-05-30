@@ -5,7 +5,9 @@
 ul {
     margin: 0;
 }
-
+.menu a:hover {
+    color: aqua;
+}
 .menu li {
     margin: 0 20px 0 0;
     list-style-type: none;
