@@ -1,0 +1,109 @@
+.wraper {
+    margin: 0 auto;
+    width: 1100px;
+    background-color: 8e8e8e;
+}
+.log a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: black;
+}
+.log a::first-letter {
+    color: aquamarine;
+}
+.log {
+    float: left;
+}
+.menu li {
+    margin: 0 25px 0 0;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.menu a:hover {
+    color: #1abc9c;
+}
+
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.product {
+    padding-top: 101px;
+}
+.product p {
+    margin: 0;
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.product p::after {
+    content: '';
+    display: block;
+    width: 164px;
+    border-bottom: solid 7px #1abc;
+    margin: 0 auto 91px auto;
+    padding-top: 34px;
+}
+.article-box {
+    height: 321px;
+    width: 255px;
+    background-color: #e8effc;
+    margin: 0 15px 30px 15px;
+    float: left;
+}
+
+
+.name {
+    display: inline-block;
+    width: 201px;
+    height: 40px;
+    background-color: #323232;
+}
+.name a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 14px;
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+
+}span {
+    float: right;
+    width: 54px;
+    height: 40px;
+    background-color: #8c8c8c;
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+}
+.article-box:hover .name {
+    background-color: #1abc9c;
+}
+.article-box:hover span {
+    background-color: #7fd9c7;
+}
+.article-box:nth-child(2) {
+    margin-left: 100px;
+}
