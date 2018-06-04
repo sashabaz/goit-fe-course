@@ -53,14 +53,14 @@ main {
 .product {
     padding-top: 101px;
 }
-.product p {
+.product h1, h2 {
     margin: 0;
     text-align: center;
     font-size: 48px;
     text-transform: uppercase;
 }
 
-.product p::after {
+.product h1::after, h2::after {
     content: '';
     display: block;
     width: 164px;
@@ -177,9 +177,7 @@ button {
 .box-content:last-child {
     margin-right: 0;
 }
-.style3 {
-    font-weight: 600;
-}
+
 
 .img-box {
     display: table-cell;
@@ -188,4 +186,17 @@ button {
     width: 255px;
     height: 277px;
 
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+a, h1, h2, h3 {
+    font-family: 'MyriadProRegular', serif;
 }
