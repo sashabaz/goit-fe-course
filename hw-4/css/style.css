@@ -189,15 +189,22 @@ button {
 
 }
 
-@font-face {
-    font-family: "MyriadProRegular";
-    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
-    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
-    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+
+a {
+    font-family: 'Roboto', sans-serif;
 }
-a, h1, h2, h3 {
-    font-family: 'MyriadProRegular', serif;
+.menu a {
+    font-family: 'Open Sans:700', sans-serif;
+}
+.product h1, a, span, h2 {
+    font-family: 'Roboto:900', sans-serif;
+}
+.box-content h3 {
+    font-family: 'Open Sans:600', sans-serif;
+}
+.box-content p {
+    font-family: 'Open Sans', sans-serif;
+}
+.botton {
+    font-family: 'Open Sans:300', sans-serif;
 }
