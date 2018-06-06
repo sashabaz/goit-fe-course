@@ -1,0 +1,18 @@
+.wraper {
+    position: relative;
+}
+.box1 {
+    width: 800px;
+    height: 800px;
+    background-color: aqua;
+}
+.box2 {
+    width: 800px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}

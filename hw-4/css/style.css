@@ -24,6 +24,7 @@
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    font-size: 14px;
 }
 .menu a:hover {
     color: #1abc9c;
@@ -206,5 +207,5 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 .botton {
-    font-family: 'Open Sans:300', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
