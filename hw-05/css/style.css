@@ -1,18 +1,114 @@
-.wraper {
-    position: relative;
-}
 .box1 {
-    width: 800px;
+    width: 100%;
     height: 800px;
-    background-color: aqua;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),  url(../img/cat.jpg);
 }
 .box2 {
-    width: 800px;
-    height: 800px;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-}
-img {
-    display: block;
+    width: 400px;
+    height: 400px;
     margin: 0 auto;
+    background-color: #424242;
+    position: relative;
+    
 }
+.box2 div {
+    width: 100px;
+    height: 100px;
+    }
+
+.b1 {
+    background-color: #2ea2f3;
+    position: absolute;
+    
+}
+.b2 {
+    background-color: #199586;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.b3 {
+    background-color: #e62365;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+
+
+}
+.b4 {
+    background-color: #f1483d;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.b5 {
+    background-color: #fc5b2d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.b6 {
+    background-color: #9b12ae;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateX(-100%) translateY(-50%);
+    }
+.b7 {
+    background-color: #4db051;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+}
+.b8 {
+    background-color: #fcef41;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateY(-100%) translateX(-50%);
+}
+.b9 {
+    background-color: #398ef2;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateY(-100%) translateX(-100%);
+}
+
+.wrapper {
+    max-width: 800px;;
+    margin: auto;
+  } 
+  
+  .menu {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .menu-item {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-item > a,
+  .submenu-item > a {
+    display: inline-block;
+    padding: 30px 30px; 
+    text-decoration: none;
+  }  
+  .submenu {
+     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+}
+.menu-item:hover > .submenu {
+    display: block;
+}
+  
