@@ -173,7 +173,7 @@ h1 {
     transform: translateY(-100%);
     background-color:#323232;
 }
-.name h3 {
+.name span {
     margin: 0;
 }
 .name a {
