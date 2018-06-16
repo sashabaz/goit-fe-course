@@ -1,0 +1,237 @@
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    padding: 15px;
+    /* outline: 2px solid black; */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav h1>a {
+    font-size: 30px;
+    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+}
+nav li {
+    list-style: none;
+    padding-left: 55px;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li>a {
+    font-size: 14px;
+    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+nav li>a:hover {
+    transition-timing-function: linear;
+    transition-duration: .2s;
+    color: #f38181;
+    border-bottom: 2px solid #f38181;
+}
+nav {
+   margin-bottom: 110px;
+}
+.main p {
+    font-style: 14px;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+
+}
+.main h2 {
+    font-style: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.main h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    border-bottom: solid 3px #f38181;
+    padding-top: 42px;
+    margin: 0 auto;
+    margin-bottom: 66px;
+    
+}
+.servis {
+    /* outline: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.service-box {
+    flex: 1 0 33%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.logo-png {
+    width: 34px;
+    height: 34px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 336px;
+    /* outline: 2px solid black; */
+}
+.content h3 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.content a {
+    text-decoration: none;
+    color: #adadad;
+    font-style: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.content span {
+    font-style: 14px;
+    color: #adadad;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.lor {
+    display: block;
+    font-size: 15px;
+    font-family: 'Roboto:400', sans-serif;
+    text-align: center;
+    color: #999999;
+}
+.servis2 {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+.conteiner {
+    /* outline: 2px solid black; */
+    width: 381px;
+    height: 583px;
+    
+}
+.conteiner h3 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-style: 14px;
+    font-family: 'Montserrat:400', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.conteiner span {
+    display: block;
+    font-size: 15px;
+    font-family: 'Roboto:300', sans-serif;
+    text-align: center;
+    color: #999999;
+
+}
+.font {
+    display: none;
+
+
+}
+.fon {
+    /* outline: 2px solid black; */
+    width: 381px;
+    height: 469px;
+    background-image: linear-gradient(rgba(239, 138, 138, .9), rgba(240, 218, 137, .9));
+    position: absolute;
+    transform: translateX(-10px) translateY(-10px);
+    box-shadow: 10px 10px 0 0 #95e1d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.icon {
+     margin: 0;
+     /* outline: 2px solid black; */
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-fon:hover .font{
+    display: block;
+    
+
+}
+.icon:hover {
+    background-color: #95e1d3;
+    transition-timing-function: linear;
+    transition-duration: .2s;
+}
+.master-foter {
+    height: 60px;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foter-left {
+    display: flex;
+}
+.foter-left p {
+    font-size: 14px;
+    font-family: 'Montserrat:400', sans-serif;
+
+
+}
+.fot2 {
+    color: #f38181;
+    padding-left: 5px;
+}
+.foter-right {
+    display: flex;
+}
+
+.mail {
+    margin: 0;
+    padding: 0;
+    width: 230px;
+    height: 38px;
+    border: 1px solid #e7e7e7;
+    font-size: 15px;
+    font-family: 'Roboto:300i', sans-serif;
+    color: #e7e7e7;
+    line-height: 38px;
+    padding-left: 13px;
+}
+
+.foter-right a {
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+    background-color: #95e1d3;
+    width: 150px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat:700', sans-serif;
+    text-align: center;
+    line-height: 40px;
+
+}
+
