@@ -3,7 +3,7 @@
     width: 1200px;
     height: 100%;
     /* padding: 15px; */
-    outline: 2px solid black;
+    /* outline: 2px solid black; */
 }
 nav {
     display: flex;

@@ -75,7 +75,7 @@ main>span {
 .main2 {
     position: relative;
     width: 1400px;
-    height: 675px;
+    height: 675px; 
     background-color: #222222; 
     
     
@@ -83,7 +83,7 @@ main>span {
 .main2 img{
     /* outline: 2px solid yellow; */
     position: absolute;
-    top: 10%;
+    top: 18%;
     left: 55%;
 }.form h2{
     font-size: 40px;
