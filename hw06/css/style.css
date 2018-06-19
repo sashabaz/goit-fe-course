@@ -2,8 +2,8 @@
     margin: 0 auto;
     width: 1200px;
     height: 100%;
-    padding: 15px;
-    /* outline: 2px solid black; */
+    /* padding: 15px; */
+    outline: 2px solid black;
 }
 nav {
     display: flex;
@@ -42,15 +42,15 @@ nav {
    margin-bottom: 110px;
 }
 .main p {
-    font-style: 14px;
-    color: black;
+    font-size: 24px;
+    color: #333333;
     font-family: 'Kaushan Script', cursive;
     text-align: center;
 
 }
 .main h2 {
-    font-style: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-family: 'Montserrat:700', sans-serif;
     text-align: center;
     text-transform: uppercase;
 
@@ -96,15 +96,15 @@ nav {
 }
 .content a {
     text-decoration: none;
-    color: #adadad;
-    font-style: 14px;
+    color: #333333;
+    font-size: 14px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat:400', sans-serif;
 }
 .content span {
-    font-style: 14px;
-    color: #adadad;
-    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    font-family: 'Roboto:400', sans-serif;
 }
 
 
@@ -124,21 +124,27 @@ nav {
     /* outline: 2px solid black; */
     width: 381px;
     height: 583px;
+    margin: 0;
     
 }
-.conteiner h3 a {
+figcaption h3 {
     display: block;
-    text-decoration: none;
-    color: black;
-    font-style: 14px;
-    font-family: 'Montserrat:400', sans-serif;
-    text-transform: uppercase;
     text-align: center;
 }
-.conteiner span {
+figcaption a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Montserrat:400', sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+figcaption span {
     display: block;
     font-size: 15px;
-    font-family: 'Roboto:300', sans-serif;
+    font-family: 'Roboto:300i', sans-serif;
     text-align: center;
     color: #999999;
 

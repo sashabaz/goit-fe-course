@@ -1,0 +1,131 @@
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    outline: 2px solid black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 126px;
+}
+h1 {
+    font-size: 26px;
+    color: #fed136;
+}
+nav ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 40px;   
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+nav a:hover {
+    color: #fed136;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+main>span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.cont-services {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
+     margin-bottom: 117px;
+}
+.box {
+    width: 280px;
+}
+.box-img {
+    width: 70px;
+    height: 70px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+.box-img img {
+    margin: auto;
+}
+.box h3 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+.box span {
+    font-size: 14px;
+    color: #777777;
+    text-align: center;
+}
+.main2 {
+    position: relative;
+    width: 1400px;
+    height: 675px;
+    background-color: #222222; 
+    
+    
+}
+.main2 img{
+    /* outline: 2px solid yellow; */
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}.form h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+    margin-bottom: 25px;
+}
+.form span {
+    display: block;
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 77px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.input input {
+    margin-bottom: 18px;
+    width: 455px;
+    height: 53px;
+}
+textarea {
+    height: 208px;
+    width: 455px;
+    margin-left: 30px;
+}
+.f {
+    display: flex;
+    justify-content: center;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    color: white;
+    font-size: 18;
+    text-transform: uppercase;
+}
