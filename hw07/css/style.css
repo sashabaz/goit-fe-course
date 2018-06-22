@@ -194,10 +194,10 @@ main>span {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-.input input:valid {
+.required:valid {
     outline: 2px solid green;
 }
-.input input:invalid {
+.required:invalid {
     outline: 2px solid red;
 }
 textarea {
@@ -209,6 +209,12 @@ textarea {
 textarea::-webkit-input-placeholder { 
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+}
+textarea:valid {
+    outline: 2px solid green;
+}
+textarea:invalid {
+    outline: 2px solid red;
 }
 .f {
     display: flex;
