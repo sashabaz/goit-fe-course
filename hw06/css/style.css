@@ -50,7 +50,8 @@ nav {
 }
 .main h2 {
     font-size: 30px;
-    font-family: 'Montserrat:700', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
 
@@ -99,7 +100,8 @@ nav {
     color: #333333;
     font-size: 14px;
     text-transform: uppercase;
-    font-family: 'Montserrat:400', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 .content span {
     font-size: 15px;
@@ -111,7 +113,8 @@ nav {
 .lor {
     display: block;
     font-size: 15px;
-    font-family: 'Roboto:400', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     text-align: center;
     color: #999999;
 }
@@ -135,16 +138,19 @@ figcaption a {
     text-decoration: none;
     color: #333333;
     font-size: 14px;
-    font-family: 'Montserrat:400', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     text-transform: uppercase;
 
 
 }
 
-figcaption span {
+figcaption span  {
     display: block;
     font-size: 15px;
-    font-family: 'Roboto:300i', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
     text-align: center;
     color: #999999;
 
@@ -201,7 +207,8 @@ figcaption span {
 }
 .foter-left p {
     font-size: 14px;
-    font-family: 'Montserrat:400', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 
 
 }
@@ -220,7 +227,9 @@ figcaption span {
     height: 38px;
     border: 1px solid #e7e7e7;
     font-size: 15px;
-    font-family: 'Roboto:300i', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
     color: #e7e7e7;
     line-height: 38px;
     padding-left: 13px;
@@ -235,9 +244,11 @@ figcaption span {
     height: 40px;
     color: white;
     text-transform: uppercase;
-    font-family: 'Montserrat:700', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     text-align: center;
     line-height: 40px;
+     
 
 }
 
