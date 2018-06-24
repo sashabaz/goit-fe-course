@@ -74,7 +74,8 @@ header {
     margin: 0 auto;
     margin-bottom: 126px;
 }
-h1 {
+.log a {
+    text-decoration: none;
     font-size: 26px;
     color: #fed136;
     font-family: 'Poor Story', cursive;
@@ -113,6 +114,7 @@ main>span {
     text-align: center;
     margin-bottom: 75px;
     font-family: 'Slabo 27px', serif;
+    font-style: italic;
 }
 .cont-services {
     display: flex;
@@ -143,7 +145,7 @@ main>span {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-.box span {
+.box p {
     font-size: 14px;
     color: #777777;
     text-align: center;
@@ -179,6 +181,7 @@ main>span {
     text-align: center;
     margin-bottom: 77px;
     font-family: 'Slabo 27px', serif;
+    font-style: italic;
 }
 .input {
     display: flex;
@@ -190,6 +193,7 @@ main>span {
     margin-bottom: 18px;
     width: 455px;
     height: 53px;
+    border-radius: 3px;
 }
 .input input::-webkit-input-placeholder { 
     font-family: 'Montserrat', sans-serif;
@@ -210,6 +214,7 @@ textarea {
     margin-left: 30px;
     z-index: 999;
     padding: 20px;
+    border-radius: 3px;
 }
 textarea::-webkit-input-placeholder { 
     font-family: 'Montserrat', sans-serif;
@@ -237,4 +242,7 @@ button {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    border: 0;
+    border-radius: 3px;
+
 }
