@@ -1,0 +1,26 @@
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+.content {
+    height: 300px;
+    background-color: bisque;
+    width: 100%;
+        }
+.sadebar {
+    height: 300px;
+    background-color: chartreuse;
+    width: 100%;
+
+}
+@media (min-width: 768px) {
+    .wrapper {
+        display: flex;
+            }
+    .content {
+        width: 70%;
+    }
+    .sadebar {
+        width: 30%;
+    }
+}

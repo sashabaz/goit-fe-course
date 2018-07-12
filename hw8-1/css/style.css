@@ -1,0 +1,44 @@
+.wrapper {
+    max-width: 960px;;
+    outline: 1px solid black;
+    margin: 0 auto;
+}
+.header {
+    max-width: 100%;
+    height: 60px;
+    background-color: yellow;
+    outline: 2px solid black;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    max-width: 960px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.sidebar1 {
+    width: 55%;
+    height: 300px;
+    background-color: aqua;
+    outline: 1px solid black;
+
+}
+.sidebar2 {
+    width: 20%;
+    height: 300px;
+    background-color: darkgrey;
+    outline: 1px solid black;
+}
+.sidebar3 {
+    width: 20%;
+    height: 300px;
+    background-color: red;
+    outline: 1px solid black;
+}
+.foter {
+    max-width: 100%;
+    height: 60px;
+    background-color: green;
+    outline: 2px solid black;
+    margin-bottom: 20px;
+}

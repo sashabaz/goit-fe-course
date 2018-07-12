@@ -1,0 +1,43 @@
+.wrapper {
+    width: 960px;
+    outline: 1px solid 2px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: grey;
+}
+.box-header {
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    margin-bottom: 10px
+}
+.box-content {
+    height: 200px;
+    width: 100%;
+    background-color: greenyellow;
+    margin-bottom: 10px;
+
+}
+.box-footer {
+    height: 200px;
+    width: 100%;
+    background-color:blue;
+
+}
+@media (min-width: 768px) {
+    .wrap {
+        display: flex;
+        
+    }
+    .box-content {
+        width: 30%;
+        height: 400px;
+    }
+    .box-footer {
+        width: 70%;
+        margin-left: 10px;
+        height: 400px;
+    }
+}
+
+
