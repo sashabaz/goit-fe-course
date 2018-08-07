@@ -17,7 +17,7 @@ img {
     background-position: center;
     
 }
-@media (min-resolution: 192dpi), (nim-resolution: 2dppx){
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .img {
         background-image: url('../img/nature@2x.jpg');
     }
