@@ -1,0 +1,47 @@
+.wrapper {
+    outline: 2px solid black;
+    margin: 0 auto;
+    background: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1900px;   
+}
+.conttainer {
+    width: 1200px;
+}
+
+.header__nav {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__list {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo--style {
+    font-size: 30px;
+    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav__link {
+    font-size: 14px;
+    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.nav__link:hover {
+    color: #95e1d3;
+    border-bottom: 2px solid #95e1d3;
+    text-decoration: none;
+}
+
+.inline-svg-icon{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+  }
