@@ -1,4 +1,4 @@
-
+'use strict';
 const adminLogin = 'admin';
 const adminPassword = 'm4ngo1zh4ackz0r';
 
