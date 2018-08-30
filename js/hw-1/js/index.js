@@ -13,8 +13,6 @@ if (login === null) {
   alert(cancelUser);
 } else if (login === adminLogin) {
   password = prompt(messagesPassword);
-} else {
-  alert(messagesError);
 }
 if (password === null) {
   alert(cancelUser);
