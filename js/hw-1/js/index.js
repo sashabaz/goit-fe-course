@@ -14,10 +14,10 @@ if (login === null) {
 } else if (login === adminLogin) {
   password = prompt(messagesPassword);
 }
-if (password === null) {
-  alert(cancelUser);
-} else if (password === adminPassword) {
+if (password === adminPassword) {
   alert(messagesWelcom);
+} else if (password === null) {
+  alert(cancelUser);
 } else {
   alert(messagesError);
 }
