@@ -13,11 +13,11 @@ if (login === null) {
   alert(cancelUser);
 } else if (login === adminLogin) {
   password = prompt(messagesPassword);
-}
-if (password === adminPassword) {
-  alert(messagesWelcom);
-} else if (password === null) {
-  alert(cancelUser);
-} else {
-  alert(messagesError);
-}
+  if (password === adminPassword) {
+    alert(messagesWelcom);
+  } else if (password === null) {
+    alert(cancelUser);
+  } else {
+    alert(messagesError);
+  }
+} else alert(messagesError);
