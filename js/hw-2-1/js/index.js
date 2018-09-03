@@ -13,4 +13,6 @@ for (const i of numbers) {
 }
 if (numbers.length > 0) {
   alert(`Общая сумма чисел равна ${total}`);
-} else alert('Массив  пустой');
+} else {
+  alert('Массив  пустой');
+}
