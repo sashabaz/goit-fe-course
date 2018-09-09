@@ -12,7 +12,7 @@ do {
   }
 } while (userInput !== null);
 
-if (numbers.length == 0) {
+if (!numbers.length) {
   alert('Пуст');
 } else {
   for (const i of numbers) {
