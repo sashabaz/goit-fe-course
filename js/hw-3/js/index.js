@@ -22,11 +22,11 @@ const addLogin = function(login) {
   }
 
   if (!loginIsUnique) {
-    console.log(`Логин ${login} уже используется!`);
+    console.log(`Такой логин уже используется!`);
     return;
   }
   logins.push(login);
-  console.log(`Логин ${login} успешно добавлен!`);
+  console.log(`Логин успешно добавлен!`);
 };
 
 addLogin('Ajax'); // 'Логин успешно добавлен!'
