@@ -12,10 +12,10 @@ function Cashier(name, productDatabase) {
   this.name = name;
   this.productDatabase = productDatabase;
   this.customerMoney = 0;
-  this.getCustomerMoney = (value) => {
+  this.getCustomerMoney = value => {
     this.customerMoney = value;
   };
-  this.countTotalPrice = (order) => {
+  this.countTotalPrice = order => {
     let sum = 0;
     for (key in order) {
       sum += order[key] * this.productDatabase[key];
@@ -23,9 +23,10 @@ function Cashier(name, productDatabase) {
     return sum;
   };
 
-  this.countChange = totalPrice => (this.customerMoney > totalPrice ? this.customerMoney - totalPrice : null);
+  this.countChange = totalPrice =>
+    this.customerMoney > totalPrice ? this.customerMoney - totalPrice : null;
 
-  this.onSuccess = (change) => {
+  this.onSuccess = change => {
     console.log(`Спасибо за покупку, ваша сдача ${change}!`);
   };
   this.onError = () => {
