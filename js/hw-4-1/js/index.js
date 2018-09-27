@@ -1,5 +1,3 @@
-'use strict';
-
 const products = {
   bread: 10,
   milk: 15,
@@ -17,7 +15,7 @@ function Cashier(name, productDatabase) {
   };
   this.countTotalPrice = order => {
     let sum = 0;
-    for (const key in order) {
+    for (key in order) {
       sum += order[key] * this.productDatabase[key];
     }
     return sum;
@@ -45,16 +43,25 @@ const order = {
 };
 
 const mango = new Cashier('Mango', products);
-console.log(mango.name);
-console.log(mango.productDatabase);
-console.log(mango.customerMoney);
 
 const totalPrice = mango.countTotalPrice(order);
 
-console.log(totalPrice); // 110
+console.log(totalPrice);
 
 mango.getCustomerMoney(300);
-console.log(mango.customerMoney); // 300
 
-const change = mango.countChange();
-console.log(change); // 190
+console.log(mango.customerMoney);
+
+const change = mango.countChange(totalPrice);
+
+console.log(change);
+
+if (change !== null) {
+  mango.onSuccess(change);
+} else {
+  mango.onError();
+}
+
+mango.reset();
+
+console.log(mango.customerMoney);
