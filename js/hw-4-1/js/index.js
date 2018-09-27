@@ -1,3 +1,4 @@
+'use strict';
 const products = {
   bread: 10,
   milk: 15,
@@ -10,26 +11,29 @@ function Cashier(name, productDatabase) {
   this.name = name;
   this.productDatabase = productDatabase;
   this.customerMoney = 0;
-  this.getCustomerMoney = value => {
+
+  this.getCustomerMoney = (value) => {
     this.customerMoney = value;
   };
-  this.countTotalPrice = order => {
+
+  this.countTotalPrice = (order) => {
     let sum = 0;
-    for (key in order) {
+    for (const key in order) {
       sum += order[key] * this.productDatabase[key];
     }
     return sum;
   };
 
-  this.countChange = totalPrice =>
-    this.customerMoney > totalPrice ? this.customerMoney - totalPrice : null;
+  this.countChange = totalPrice => (this.customerMoney > totalPrice ? this.customerMoney - totalPrice : null);
 
-  this.onSuccess = change => {
+  this.onSuccess = (change) => {
     console.log(`Спасибо за покупку, ваша сдача ${change}!`);
   };
+
   this.onError = () => {
     console.log('Очень жаль, вам не хватает денег на покупки');
   };
+
   this.reset = () => {
     this.customerMoney = 0;
   };
