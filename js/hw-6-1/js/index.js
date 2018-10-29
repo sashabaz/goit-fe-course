@@ -65,12 +65,18 @@ class Hamburger {
    * Попробуйте сделать это геттером чтобы можно было обращаться как obj.price и нам вернет сумму.
    */
 
-  calculatePrice() {
-    return (
-      Hamburger.SIZES[this._size].price
-      + Hamburger.STUFFINGS[this._stuffing].price
-      + this._toppings.reduce((acc, el, i) => (acc += Hamburger.TOPPINGS[this._toppings[i]].price), 0)
+  calculate(key) {
+    const calculatedKey = this._toppings.reduce(
+      (acc, value) => acc + Hamburger.TOPPINGS[value][key],
+      0,
     );
+    return (
+      Hamburger.SIZES[this._size][key] + Hamburger.STUFFINGS[this._stuffing][key] + calculatedKey
+    );
+  }
+
+  calculatePrice() {
+    return this.calculate('price');
   }
 
   /**
@@ -80,14 +86,7 @@ class Hamburger {
    * Попробуйте сделать это геттером чтобы можно было обращаться как obj.calories и нам вернет сумму.
    */
   calculateCalories() {
-    return (
-      Hamburger.SIZES[this._size].calories
-      + Hamburger.STUFFINGS[this._stuffing].calories
-      + this._toppings.reduce(
-        (acc, el, i) => (acc += Hamburger.TOPPINGS[this._toppings[i]].calories),
-        0,
-      )
-    );
+    return this.calculate('calories');
   }
 }
 Hamburger.SIZE_SMALL = 'SIZE_SMALL';
