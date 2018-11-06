@@ -30,6 +30,7 @@ function createImgElem(imgLink) {
 
   return postImg;
 }
+
 function createTitleElem(titleText) {
   const postTitle = document.createElement('h2');
   postTitle.classList.add('post__title');
@@ -46,7 +47,7 @@ function createTextElem(contentText) {
   return postText;
 }
 
-function createButton({ text = 'Read more', className = '', link = '#' }) {
+function createLink({ text = 'Read more', className = 'button', link = '#' }) {
   const btn = document.createElement('a');
   btn.textContent = text;
   btn.classList.add(className);
@@ -56,17 +57,15 @@ function createButton({ text = 'Read more', className = '', link = '#' }) {
 }
 
 function createPostCard({
-  img = '', title = '', text = '', link = '',
+  img = '', title = 'newTitle', text = '', link = '',
 }) {
   const postCont = document.createElement('div');
   postCont.classList.add('post');
 
-  const bttn = createButton({ text: '', className: 'button', link });
-
   const postImg = createImgElem(img);
   const postTitle = createTitleElem(title);
   const postText = createTextElem(text);
-
+  const bttn = createLink({ link });
   postCont.append(postImg, postTitle, postText, bttn);
 
   return postCont;
@@ -81,5 +80,6 @@ function createCards(postsArry) {
 const note = document.querySelector('#wrap');
 
 const newPosts = createCards(posts);
+console.log(note);
 
 note.append(...newPosts);
